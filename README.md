@@ -6,6 +6,6 @@ npm install
 ```
 
 
-Página Demo desplegada:
+Página Demo desplegada en Heroku:
 
 https://carolina-ramon-webpage.herokuapp.com/
