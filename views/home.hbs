@@ -1,0 +1,25 @@
+
+
+{{> head }}
+
+  <!-- localhost:3000 en el browser -->
+  
+  
+{{> navbar }}
+{{!-- Tengo que escribir el nombre del archivo. > tiene que estar pegado a la llave, sino no funciona. --}}
+
+
+<div class="jumbotron">
+
+      {{!-- Con helper: --}}
+      {{!-- Si hay parámetros los especificamos después. --}}
+      <h1 class="display-4">Hola, {{capitalizar nombre}}!</h1>
+      {{!-- Sin helper: --}}
+      {{!-- <h1 class="display-4">Hola, {{capitalizar 'carolina ramon'}}!</h1> --}}
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reprehenderit ducimus repellendus incidunt. Quibusdam sequi voluptates id saepe. Optio nulla enim unde dignissimos voluptatibus suscipit repudiandae, amet officia iste porro?</p>
+      <hr class="my-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, expedita.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+{{> footer }}
