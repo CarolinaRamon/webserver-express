@@ -1,9 +1,10 @@
 
-## Código fuente del proyecto.
+## Código fuente del proyecto
 
-´´´
+```
 npm install
 ```
+
 
 Página Demo desplegada:
 
